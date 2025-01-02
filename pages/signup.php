@@ -14,7 +14,8 @@
 
         .diagonal-border {
             background: linear-gradient(135deg, #FF0000 0%, #000000 100%);
-            transform: skew(-12deg);
+            transform: skew(-6deg);  /* Reduced skew angle */
+            border-radius: 4px;      /* Added subtle border radius */
         }
 
         .car-gradient {
@@ -38,7 +39,7 @@
     </nav>
 
     <!-- Signup Form -->
-    <div class="pt-32 px-8 md:px-0">
+    <div class="pt-32 pb-24 px-8 md:px-0">  <!-- Added pb-24 for bottom spacing -->
         <div class="max-w-md mx-auto">
             <h2 class="text-4xl font-bold mb-8">Create Account</h2>
             
@@ -46,30 +47,39 @@
                 <div>
                     <label class="block text-sm font-medium mb-2">Full Name</label>
                     <input type="text" name="fullname" required 
-                           class="w-full px-4 py-3 bg-neutral-900 border border-neutral-800 rounded-lg focus:outline-none focus:border-red-500 transition-colors">
+                           class="w-full px-4 py-4 bg-neutral-800 border-2 border-neutral-700 rounded-lg 
+                                  focus:outline-none focus:border-red-500 transition-colors
+                                  text-lg placeholder-neutral-400">
                 </div>
 
                 <div>
                     <label class="block text-sm font-medium mb-2">Email</label>
                     <input type="email" name="email" required 
-                           class="w-full px-4 py-3 bg-neutral-900 border border-neutral-800 rounded-lg focus:outline-none focus:border-red-500 transition-colors">
+                           class="w-full px-4 py-4 bg-neutral-800 border-2 border-neutral-700 rounded-lg 
+                                  focus:outline-none focus:border-red-500 transition-colors
+                                  text-lg placeholder-neutral-400">
                 </div>
 
                 <div>
                     <label class="block text-sm font-medium mb-2">Password</label>
                     <input type="password" name="password" required 
-                           class="w-full px-4 py-3 bg-neutral-900 border border-neutral-800 rounded-lg focus:outline-none focus:border-red-500 transition-colors">
+                           class="w-full px-4 py-4 bg-neutral-800 border-2 border-neutral-700 rounded-lg 
+                                  focus:outline-none focus:border-red-500 transition-colors
+                                  text-lg placeholder-neutral-400">
                 </div>
 
                 <div>
                     <label class="block text-sm font-medium mb-2">Confirm Password</label>
                     <input type="password" name="confirm_password" required 
-                           class="w-full px-4 py-3 bg-neutral-900 border border-neutral-800 rounded-lg focus:outline-none focus:border-red-500 transition-colors">
+                           class="w-full px-4 py-4 bg-neutral-800 border-2 border-neutral-700 rounded-lg 
+                                  focus:outline-none focus:border-red-500 transition-colors
+                                  text-lg placeholder-neutral-400">
                 </div>
 
                 <button type="submit" 
-                        class="w-full diagonal-border px-8 py-3 text-sm tracking-widest hover:opacity-90 transition-opacity">
-                    CREATE ACCOUNT
+                        class="w-full diagonal-border px-8 py-4 text-sm tracking-widest hover:opacity-90 
+                               transition-opacity mt-6">
+                    <span class="inline-block transform skew-x-6">CREATE ACCOUNT</span>
                 </button>
             </form>
 
