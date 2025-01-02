@@ -14,8 +14,8 @@
 
         .diagonal-border {
             background: linear-gradient(135deg, #FF0000 0%, #000000 100%);
-            transform: skew(-6deg);  /* Reduced skew angle */
-            border-radius: 4px;      /* Added subtle border radius */
+            transform: skew(-6deg);
+            border-radius: 4px; 
         }
 
         .car-gradient {
@@ -39,7 +39,7 @@
     </nav>
 
     <!-- Login Form -->
-    <div class="pt-32 pb-24 px-8 md:px-0">  <!-- Added pb-24 for bottom spacing -->
+    <div class="pt-32 pb-24 px-8 md:px-0"> 
         <div class="max-w-md mx-auto">
             <h2 class="text-4xl font-bold mb-8">Welcome Back</h2>
             
