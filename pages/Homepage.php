@@ -103,7 +103,7 @@
             </div>
             <div class="relative group" id="car-showcase">
                 <div class="absolute -inset-4 bg-red-500/20 rounded-full blur-xl group-hover:bg-red-500/30 transition-colors"></div>
-                <img src="Dodge.png" alt="Luxury Car" class="w-full relative hover-grow">
+                <img src="../assets/images/Dodge.png" alt="Luxury Car" class="w-full relative hover-grow">
             </div>
         </div>
     </section>
@@ -123,7 +123,7 @@
                 <div class="hover-grow p-8 bg-black rounded-lg">
                     <div class="w-16 h-16 mb-6 relative">
                         <div class="absolute inset-0 bg-red-500/20 rounded-full blur-md"></div>
-                        <img src="clock-solid (2).svg" alt="" class="absolute inset-0 w-full h-full object-cover">                    </div>
+                        <img src="../assets/icons/clock-solid.svg" alt="" class="absolute inset-0 w-full h-full object-cover">                    </div>
                     <h3 class="text-xl font-bold mb-4">INSTANT BOOKING</h3>
                     <p class="text-gray-400">Rent cars instantly through our digital platform</p>
                 </div>
@@ -131,7 +131,7 @@
                 <div class="hover-grow p-8 bg-black rounded-lg md:translate-y-8">
                     <div class="w-16 h-16 mb-6 relative">
                         <div class="absolute inset-0 bg-red-500/20 rounded-full blur-md"></div>
-                        <img src="car-solid.svg" alt="" class="absolute inset-0 w-full h-full object-cover">                    </div>
+                        <img src="../assets/images/car-solid.svg" alt="" class="absolute inset-0 w-full h-full object-cover">                    </div>
                     <h3 class="text-xl font-bold mb-4">Diverse Collection</h3>
                     <p class="text-gray-400">A wide collection covering every appetite from luxury to sports cars</p>
                 </div>
@@ -139,7 +139,7 @@
                 <div class="hover-grow p-8 bg-black rounded-lg md:translate-y-16">
                     <div class="w-16 h-16 mb-6 relative">
                         <div class="absolute inset-0 bg-red-500/20 rounded-full blur-md"></div>
-                        <img src="globe-solid.svg" alt="" class="absolute inset-0 w-full h-full object-cover">                    </div>
+                        <img src="../assets/icons/globe-solid.svg" alt="" class="absolute inset-0 w-full h-full object-cover">                    </div>
                     <h3 class="text-xl font-bold mb-4">DIGITAL EXPERIENCE</h3>
                     <p class="text-gray-400">Fully digitalized business flow</p>
                 </div>
