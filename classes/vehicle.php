@@ -6,6 +6,8 @@ class Vehicle {
     private $model;
     private $price;
     private $availability;
+    private $category_id;
+    private $reservation_id;
     private $db;
 
     public function __construct() {
